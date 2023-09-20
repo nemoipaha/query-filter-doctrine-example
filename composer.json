@@ -1,0 +1,15 @@
+{
+    "name": "nemoi/filters-example",
+    "description": "Example of filters for doctrine",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nemoi\\FiltersExample\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.16",
+        "doctrine/common": "^3.4"
+    }
+}
